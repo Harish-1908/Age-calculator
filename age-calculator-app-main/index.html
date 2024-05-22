@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head> 
+<body>
+<div class="container">
+  <div class="top">
+    <div class="daytop">
+      <div class="day" id="day">DAY</div>
+    <input type="number" id="daytoaccess" placeholder="DD">
+    </div>
+    
+    <div class="monthtop">
+      <div class="month" id="month">MONTH</div>
+      <input type="number" id="monthtoaccess" placeholder="MM">
+    </div>
+    <div class="yeartop">
+      <div class="year" id="year">YEAR</div>
+    <input type="number" id="yeartoaccess" placeholder="YYYY">
+    </div>
+    
+
+  </div> 
+  <div class="clickme">
+    <div class="line"></div>
+    <div class="imageside"><img src="assets/images/icon-arrow.svg" id="clickimage"></div>
+  </div>
+  <div class="output">
+    <div class="years" id="getyear">
+      <i><span id="spanyears">--</span> years</i>
+    </div>
+    <div class="years" id="getmonth">
+      <i><span id="spanmonths"> --</span> months</i>
+    </div>
+    <div class="years" id="getday">
+      <i><span id="spandays">-- </span>days </i>
+    </div>
+    
+  </div>
+  <div class="result" id="result"></div>
+</div>
+
+
+
+ 
+</body>
+</html>
